@@ -1,11 +1,11 @@
-package com.company;
+package com.company.utilities;
 
 public class ComplexNumber {
 
     private double m_realPart;
     private double m_imaginaryPart;
 
-    ComplexNumber()
+    public ComplexNumber()
     {
         m_realPart = 0.0;
         m_imaginaryPart = 0.0;

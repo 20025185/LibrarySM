@@ -1,4 +1,6 @@
-package com.company;
+package com.company.transforms;
+
+import com.company.utilities.Utility;
 
 public class IDCT2D implements Transform {
     double [][] source;

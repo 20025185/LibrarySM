@@ -1,6 +1,8 @@
-package com.company;
+package com.company.transforms;
 
-public class DCT1D implements Transform{
+import com.company.utilities.Utility;
+
+public class DCT1D implements Transform {
     double[] source;
     double[] result;
 

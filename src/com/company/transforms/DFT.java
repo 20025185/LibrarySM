@@ -1,8 +1,10 @@
-package com.company;
+package com.company.transforms;
 
-public class DFT implements Transform{
+import com.company.utilities.ComplexNumber;
+
+public class DFT implements Transform {
     double []source;
-    ComplexNumber []result;
+    ComplexNumber[]result;
     //ComplexNumber r = new ComplexNumber();
 
     @Override

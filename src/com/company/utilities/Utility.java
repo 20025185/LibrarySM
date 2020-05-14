@@ -1,4 +1,9 @@
-package com.company;
+package com.company.utilities;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 
 public class Utility {
     public static double alpha(int k, int N)
@@ -8,4 +13,6 @@ public class Utility {
         else
             return Math.sqrt((double) 2 / (double) N);
     }
+
+
 }

@@ -1,10 +1,8 @@
-package com.company;
+package com.company.transforms;
 
-import sun.security.krb5.internal.rcache.AuthList;
+import com.company.utilities.Utility;
 
-import javax.rmi.CORBA.Util;
-
-public class DCT2D implements Transform{
+public class DCT2D implements Transform {
     double [][] source;
     double [][] result;
 

@@ -1,7 +1,9 @@
-package com.company;
+package com.company.transforms;
 
-public class IDFT implements Transform{
-    ComplexNumber [] source;
+import com.company.utilities.ComplexNumber;
+
+public class IDFT implements Transform {
+    ComplexNumber[] source;
     double result[];
 
     @Override
